@@ -1,0 +1,44 @@
+{
+  "provider": "occ",
+  "name": "Office of the Comptroller of the Currency (OCC)",
+  "blogURL": "https://www.occ.treas.gov/news-issuances/index-news-issuances.html",
+  "lastFetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Comptroller Gould Testifies on Agency Activities",
+      "url": "https://www.occ.treas.gov/news-issuances/news-releases/2026/nr-occ-2026-46.html",
+      "date": "2026-06-04",
+      "type": "news-release"
+    },
+    {
+      "title": "Agencies Remove Additional References to Reputation Risk",
+      "url": "https://www.occ.treas.gov/news-issuances/news-releases/2026/nr-ia-2026-45.html",
+      "date": "2026-06-02",
+      "type": "news-release"
+    },
+    {
+      "title": "OCC Announces Senior Deputy Comptroller for Regional and Midsize Financial Institutions",
+      "url": "https://www.occ.treas.gov/news-issuances/news-releases/2026/nr-occ-2026-44.html",
+      "date": "2026-06-01",
+      "type": "news-release"
+    },
+    {
+      "title": "Financial Data Transparency Act of 2022: Final Rule",
+      "url": "https://www.occ.treas.gov/news-issuances/bulletins/2026/bulletin-2026-25.html",
+      "date": "2026-06-11",
+      "type": "bulletin"
+    },
+    {
+      "title": "GENIUS Act: Reporting Forms and Instructions for Permitted Payment Stablecoin Issuers",
+      "url": "https://www.occ.treas.gov/news-issuances/bulletins/2026/bulletin-2026-24.html",
+      "date": "2026-06-11",
+      "type": "bulletin"
+    },
+    {
+      "title": "Bank Supervision: Removing References to Reputation Risk",
+      "url": "https://www.occ.treas.gov/news-issuances/bulletins/2026/bulletin-2026-23.html",
+      "date": "2026-06-02",
+      "type": "bulletin"
+    }
+  ]
+}

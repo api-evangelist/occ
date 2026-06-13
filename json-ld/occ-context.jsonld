@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "occ": "https://www.occ.treas.gov/",
+    "aid": "https://api-evangelist.com/aid/",
+    "apis": "https://apis.io/",
+    "GovernmentOrganization": "https://schema.org/GovernmentOrganization",
+    "FinancialService": "https://schema.org/FinancialService",
+    "WebAPI": "https://schema.org/WebAPI",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "url": "https://schema.org/url",
+    "provider": "https://schema.org/provider",
+    "documentation": "https://schema.org/documentation",
+    "keywords": "https://schema.org/keywords",
+    "regulatoryBody": "https://schema.org/regulatoryBody",
+    "areaServed": "https://schema.org/areaServed",
+    "bankingRegulation": "occ:topics/laws-and-regulations/",
+    "enforcementAction": "occ:topics/laws-and-regulations/enforcement-actions/",
+    "craEvaluation": "occ:publications-and-resources/tools/index-cra-search.html",
+    "corporateApplication": "occ:topics/charters-and-licensing/",
+    "nationalBank": "occ:topics/licensing/national-banks/",
+    "federalSavingsAssociation": "occ:topics/licensing/federal-savings-associations/",
+    "charterNumber": {
+      "@id": "occ:charterNumber",
+      "@type": "@id"
+    },
+    "institutionName": "occ:institutionName",
+    "craRating": "occ:craRating",
+    "evaluationDate": "occ:evaluationDate",
+    "actionType": "occ:actionType",
+    "applicationStatus": "occ:applicationStatus"
+  },
+  "@graph": [
+    {
+      "@type": "GovernmentOrganization",
+      "@id": "https://www.occ.treas.gov/",
+      "name": "Office of the Comptroller of the Currency",
+      "description": "The OCC charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks.",
+      "url": "https://www.occ.treas.gov/",
+      "areaServed": "United States",
+      "sameAs": [
+        "https://twitter.com/USOCC",
+        "https://www.linkedin.com/company/office-of-the-comptroller-of-the-currency"
+      ],
+      "parentOrganization": {
+        "@type": "GovernmentOrganization",
+        "@id": "https://home.treasury.gov/",
+        "name": "U.S. Department of the Treasury"
+      }
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://apps.occ.gov/financial-institution-search",
+      "name": "OCC Financial Institution Search API",
+      "description": "Search for CRA, enforcement, and institution data for OCC-regulated national banks, federal savings associations, and federal branches and agencies of foreign banking organizations.",
+      "url": "https://www.occ.treas.gov/publications-and-resources/tools/occ-financial-institution-search/index-occ-financial-institution-search.html",
+      "provider": {
+        "@id": "https://www.occ.treas.gov/"
+      },
+      "keywords": ["Financial Institutions", "National Banks", "Federal Savings Associations", "CRA", "Search"]
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://apps.occ.gov/crasearch",
+      "name": "OCC CRA Performance Evaluations Search API",
+      "description": "Search and retrieve Community Reinvestment Act (CRA) performance evaluations for national banks and federal savings associations.",
+      "url": "https://www.occ.treas.gov/publications-and-resources/tools/index-cra-search.html",
+      "provider": {
+        "@id": "https://www.occ.treas.gov/"
+      },
+      "keywords": ["CRA", "Community Reinvestment Act", "Performance Evaluations", "National Banks", "Federal Savings Associations"]
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://apps.occ.gov/EASearch",
+      "name": "OCC Enforcement Actions Search API",
+      "description": "Search and retrieve enforcement actions taken by the OCC against national banks, federal savings associations, and individuals.",
+      "url": "https://apps.occ.gov/EASearch",
+      "provider": {
+        "@id": "https://www.occ.treas.gov/"
+      },
+      "keywords": ["Enforcement Actions", "Regulatory Compliance", "National Banks", "Federal Savings Associations"]
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://apps.occ.gov/CAAS_CATS",
+      "name": "OCC Corporate Applications Search (CAS)",
+      "description": "Search for corporate applications submitted to the OCC for bank licensing and other corporate filings.",
+      "url": "https://apps.occ.gov/CAAS_CATS",
+      "provider": {
+        "@id": "https://www.occ.treas.gov/"
+      },
+      "keywords": ["Corporate Applications", "Bank Licensing", "Charters", "Mergers", "National Banks"]
+    }
+  ]
+}
