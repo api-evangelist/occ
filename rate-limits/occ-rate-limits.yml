@@ -1,0 +1,55 @@
+name: OCC API Rate Limits
+description: The Office of the Comptroller of the Currency (OCC) does not publish
+  formal rate limit policies for its public data search tools. As a federal government
+  agency, the OCC operates its tools as public services. While no documented rate
+  limits are published, standard responsible use policies apply. Bulk data access
+  is available through downloadable Excel and XML files rather than high-volume API
+  calls to the search tools.
+rateLimits:
+  - name: Financial Institution Search
+    description: No formally published rate limits. Web-based search interface intended
+      for reasonable public use. Bulk institution lists are available for download
+      as Excel files rather than high-volume search queries.
+    limit: Undocumented
+    window: Undocumented
+    unit: requests
+    notes: Use downloadable Excel files at occ.treas.gov/topics/charters-and-licensing/financial-institution-lists/
+      for bulk access to institution data.
+  - name: CRA Performance Evaluations Search
+    description: No formally published rate limits. Web-based search interface for
+      CRA evaluation records from April 1996 onward. Pre-1996 records require a
+      FOIA request.
+    limit: Undocumented
+    window: Undocumented
+    unit: requests
+    notes: Contact CRA Search Support via email for issues with the search tool.
+  - name: Enforcement Actions Search
+    description: No formally published rate limits. Web-based search interface.
+      Historical OTS (Office of Thrift Supervision) enforcement orders prior to
+      July 2011 are available as a downloadable Excel archive.
+    limit: Undocumented
+    window: Undocumented
+    unit: requests
+    notes: Use the XLS archive for historical OTS enforcement data bulk access.
+  - name: Corporate Applications Search (CAS)
+    description: No formally published rate limits. Web-based search interface for
+      bank licensing and corporate application filings.
+    limit: Undocumented
+    window: Undocumented
+    unit: requests
+bulkAlternatives:
+  - name: Financial Institution Lists
+    description: National banks, trust banks, and federal savings associations lists
+      available as Excel and PDF downloads updated monthly.
+    url: https://www.occ.treas.gov/topics/charters-and-licensing/financial-institution-lists/index-financial-institution-lists.html
+    formats:
+      - Excel
+      - PDF
+  - name: Quarterly Derivatives and Trading Activity Report
+    description: Bank trading and derivatives activities data available for download.
+    url: https://www.occ.treas.gov/topics/markets-and-finances/financial-markets/derivatives/index-derivatives.html
+    formats:
+      - XML
+      - PDF
+created: '2026-06-13'
+modified: '2026-06-13'

@@ -1,0 +1,121 @@
+aid: occ
+name: Office of the Comptroller of the Currency (OCC)
+description: The Office of the Comptroller of the Currency (OCC) charters, regulates,
+  and supervises all national banks and federal savings associations, as well as federal
+  branches and agencies of foreign banks. The OCC provides REST APIs and data tools
+  for national bank and federal savings association data, Community Reinvestment Act
+  (CRA) performance evaluations, enforcement actions, and bank licensing and corporate
+  applications information.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+type: Index
+tags:
+  - Banking
+  - Federal
+  - Regulation
+  - National Banks
+  - Financial Institutions
+  - CRA
+  - Enforcement
+  - Licensing
+apis:
+  - aid: occ:financial-institution-search
+    name: OCC Financial Institution Search API
+    description: Search for Community Reinvestment Act (CRA), enforcement, and institution
+      data for OCC-regulated national banks, federal savings associations, and federal
+      branches and agencies of foreign banking organizations by financial institution
+      name or charter number.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://apps.occ.gov
+    humanURL: https://www.occ.treas.gov/publications-and-resources/tools/occ-financial-institution-search/index-occ-financial-institution-search.html
+    properties:
+      - type: Documentation
+        url: https://www.occ.treas.gov/publications-and-resources/tools/occ-financial-institution-search/index-occ-financial-institution-search.html
+    tags:
+      - Financial Institutions
+      - National Banks
+      - Federal Savings Associations
+      - CRA
+      - Search
+  - aid: occ:cra-performance-evaluations
+    name: OCC CRA Performance Evaluations Search API
+    description: Search and retrieve Community Reinvestment Act (CRA) performance
+      evaluations for national banks and federal savings associations. Records available
+      from April 1996 onward, searchable by charter number, bank name, city, rating,
+      state, and evaluation or public release date.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://apps.occ.gov
+    humanURL: https://www.occ.treas.gov/publications-and-resources/tools/index-cra-search.html
+    properties:
+      - type: Documentation
+        url: https://www.occ.treas.gov/publications-and-resources/tools/index-cra-search.html
+    tags:
+      - CRA
+      - Community Reinvestment Act
+      - Performance Evaluations
+      - National Banks
+      - Federal Savings Associations
+  - aid: occ:enforcement-actions
+    name: OCC Enforcement Actions Search API
+    description: Search and retrieve enforcement actions taken by the OCC against
+      national banks, federal savings associations, and individuals. Searchable by
+      bank name, person name, city, state, date range, enforcement action type, and
+      subject matter.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://apps.occ.gov
+    humanURL: https://apps.occ.gov/EASearch
+    properties:
+      - type: Documentation
+        url: https://www.occ.treas.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html
+    tags:
+      - Enforcement Actions
+      - Regulatory Compliance
+      - National Banks
+      - Federal Savings Associations
+  - aid: occ:corporate-applications
+    name: OCC Corporate Applications Search (CAS)
+    description: Search for corporate applications submitted to the OCC for bank
+      licensing and other corporate filings, including new bank charters, branches,
+      mergers, and other licensing activities for national banks and federal savings
+      associations.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://apps.occ.gov
+    humanURL: https://apps.occ.gov/CAAS_CATS
+    properties:
+      - type: Documentation
+        url: https://www.occ.treas.gov/topics/charters-and-licensing/index-charters-licensing.html
+    tags:
+      - Corporate Applications
+      - Bank Licensing
+      - Charters
+      - Mergers
+      - National Banks
+common:
+  - type: Website
+    url: https://www.occ.treas.gov/
+  - type: Documentation
+    url: https://www.occ.treas.gov/about/policies/developer-resources.html
+  - type: GitHubOrg
+    url: https://github.com/postman-government/office-of-the-comptroller-of-the-currency-occ
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/office-of-the-comptroller-of-the-currency
+  - type: Blog
+    url: https://www.occ.treas.gov/news-issuances/news-releases/index-news-releases.html
+  - type: Pricing
+    url: plans/occ-plans-pricing.yml
+  - type: StatusPage
+    url: https://www.occ.treas.gov/
+  - type: X
+    url: https://twitter.com/USOCC
+  - type: Plans
+    url: plans/occ-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/occ-rate-limits.yml
+  - type: FinOps
+    url: finops/occ-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

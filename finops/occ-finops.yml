@@ -1,0 +1,52 @@
+name: OCC API FinOps
+description: Financial operations guidance for teams using OCC data tools and APIs.
+  All OCC data services are provided free of charge as a public service of the federal
+  government. There are no direct API costs to budget for. FinOps considerations
+  center on the engineering and operational costs of consuming and processing OCC
+  data within your own infrastructure.
+directCosts:
+  apiSubscription: 0
+  currency: USD
+  description: OCC data tools and APIs are free. No API keys, subscriptions, or
+    usage fees apply.
+  authentication: None required
+indirectCosts:
+  - category: Engineering Integration
+    description: Development effort to integrate OCC search tools into downstream
+      systems or pipelines. The OCC does not provide formal REST API endpoints with
+      OpenAPI specifications; integrations may require web scraping or use of downloadable
+      Excel/XML files.
+    estimatedHours: Variable
+    notes: Budget for additional effort if building automated data pipelines; bulk
+      downloads (Excel/XML) are simpler to consume than scraping web search interfaces.
+  - category: Data Storage and Processing
+    description: Costs associated with storing and processing OCC financial institution
+      lists, CRA evaluations, and enforcement action records in internal systems.
+    services:
+      - Cloud object storage for downloaded Excel and XML files
+      - Database ingestion pipelines for institution and CRA data
+      - ETL tooling for transforming OCC data formats
+  - category: Monitoring and Maintenance
+    description: Ongoing costs to monitor OCC data for updates. OCC releases updated
+      financial institution lists monthly and CRA evaluations periodically throughout
+      the year.
+    cadence:
+      financialInstitutionLists: Monthly
+      craEvaluations: Periodic (multiple releases per year)
+      enforcementActions: As issued
+budgetRecommendations:
+  - For most use cases, budget $0 for direct API access costs.
+  - Allocate engineering time for initial integration with OCC bulk data downloads
+    (Excel/XML).
+  - Subscribe to OCC News email alerts to stay current on new CRA evaluation releases
+    and enforcement actions.
+  - Monitor data.gov (catalog.data.gov) for any new machine-readable datasets published
+    by OCC.
+  - Consider the OCC's planned API development (Enforcement Actions and CRA databases
+    identified as priority API candidates) for potential future REST API adoption.
+dataGov:
+  catalogUrl: https://catalog.data.gov/dataset?organization=occ-treas-gov
+  description: OCC datasets published on data.gov using the common core metadata
+    schema for federal agency open data listings.
+created: '2026-06-13'
+modified: '2026-06-13'

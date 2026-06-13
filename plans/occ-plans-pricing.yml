@@ -1,0 +1,26 @@
+name: OCC API Plans and Pricing
+description: The Office of the Comptroller of the Currency (OCC) provides its data
+  tools and APIs as a free public service. There are no subscription tiers, licensing
+  fees, or usage-based charges. All data access tools are funded through the OCC's
+  operating budget as an independent bureau of the U.S. Department of the Treasury.
+plans:
+  - name: Free Public Access
+    description: All OCC data search tools and APIs are available at no cost to the
+      public. This includes the Financial Institution Search, CRA Performance Evaluations
+      Search, Enforcement Actions Search, and Corporate Applications Search (CAS).
+      No registration or API key is required for public access to these tools.
+    price: 0
+    currency: USD
+    features:
+      - Financial Institution Search access
+      - CRA Performance Evaluations Search access
+      - Enforcement Actions Search access
+      - Corporate Applications Search (CAS) access
+      - Financial Institution Lists (Excel and PDF downloads)
+      - Quarterly derivatives and trading activity data (XML and PDF)
+      - No registration required
+      - No API key required
+    rateLimit: See rate-limits/occ-rate-limits.yml
+    authentication: None
+created: '2026-06-13'
+modified: '2026-06-13'
