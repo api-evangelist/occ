@@ -6,7 +6,7 @@ description: The Office of the Comptroller of the Currency (OCC) charters, regul
   for national bank and federal savings association data, Community Reinvestment Act
   (CRA) performance evaluations, enforcement actions, and bank licensing and corporate
   applications information.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -28,7 +28,7 @@ apis:
       data for OCC-regulated national banks, federal savings associations, and federal
       branches and agencies of foreign banking organizations by financial institution
       name or charter number.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://apps.occ.gov
     humanURL: https://www.occ.treas.gov/publications-and-resources/tools/occ-financial-institution-search/index-occ-financial-institution-search.html
     properties:
@@ -46,7 +46,7 @@ apis:
       evaluations for national banks and federal savings associations. Records available
       from April 1996 onward, searchable by charter number, bank name, city, rating,
       state, and evaluation or public release date.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://apps.occ.gov
     humanURL: https://www.occ.treas.gov/publications-and-resources/tools/index-cra-search.html
     properties:
@@ -64,7 +64,7 @@ apis:
       national banks, federal savings associations, and individuals. Searchable by
       bank name, person name, city, state, date range, enforcement action type, and
       subject matter.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://apps.occ.gov
     humanURL: https://apps.occ.gov/EASearch
     properties:
@@ -81,7 +81,7 @@ apis:
       licensing and other corporate filings, including new bank charters, branches,
       mergers, and other licensing activities for national banks and federal savings
       associations.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://apps.occ.gov
     humanURL: https://apps.occ.gov/CAAS_CATS
     properties:
