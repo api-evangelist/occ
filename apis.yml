@@ -94,6 +94,8 @@ apis:
       - Mergers
       - National Banks
 common:
+  - type: DomainSecurity
+    url: security/occ-domain-security.yml
   - type: Website
     url: https://www.occ.treas.gov/
   - type: Documentation
