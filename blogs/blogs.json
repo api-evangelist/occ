@@ -5,7 +5,7 @@
       "source": "https://www.occ.treas.gov/rss/occ_news.xml",
       "feed_url": "https://www.occ.treas.gov/rss/occ_news.xml",
       "title": "",
-      "saved": 3,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -13,10 +13,9 @@
       "feed_url": "https://www.linkedin.com/company/office-of-the-comptroller-of-the-currency",
       "title": "",
       "saved": 0,
-      "method": "none",
-      "error": "parse_failed"
+      "method": "none"
     }
   ],
-  "fetched": "2026-08-15T12:11:08Z",
-  "post_count": 24
+  "fetched": "2026-08-22T20:20:02Z",
+  "post_count": 25
 }
