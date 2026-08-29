@@ -1,6 +1,17 @@
 aid: occ
 name: Office of the Comptroller of the Currency (OCC)
 description: The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, Community Reinvestment Act (CRA) performance evaluations, enforcement actions, and bank licensing and corporate applications information.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
