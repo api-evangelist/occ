@@ -29,3 +29,16 @@ plans:
     authentication: None
 created: '2026-06-13'
 modified: '2026-06-13'
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: Free Public Access
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
