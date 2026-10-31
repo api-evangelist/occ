@@ -64,33 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks in the United States. The OCC is an independent bureau within the U.S. Department of the Treasury.
+The Office of the Comptroller of the Currency (OCC) charters, regulates, and supervises all national banks and federal savings associations, as well as federal branches and agencies of foreign banks. The OCC provides REST APIs and data tools for national bank and federal savings association data, Community Reinvestment Act (CRA) performance evaluations, enforcement actions, and bank licensing and corporate applications information.
 
-## APIs and Data Tools
+**Areas:** Banking · Federal · Regulations · National Banks · Financial Institutions · CRA · Enforcement · Licensing
 
-The OCC provides several public data tools and search interfaces for national bank and federal savings association data:
+## Office of the Comptroller of the Currency (OCC) on APIs.io
 
-- **Financial Institution Search** - Search for CRA, enforcement, and institution data by name or charter number
-- **CRA Performance Evaluations Search** - Search CRA performance evaluation records from April 1996 onward
-- **Enforcement Actions Search** - Search enforcement actions by bank name, person, location, and action type
-- **Corporate Applications Search (CAS)** - Search bank licensing and corporate application filings
+Everything profiled for Office of the Comptroller of the Currency (OCC) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/occ/](https://apis.io/providers/occ/)** — or go straight to one of the APIs or properties below.
 
-## Bulk Data Downloads
+### APIs (3)
 
-For programmatic access, the OCC provides downloadable datasets:
+- [OCC Financial Institution Search API](https://apis.io/apis/occ/financial-institution-search/) — Search for Community Reinvestment Act (CRA), enforcement, and institution data for OCC-regulated national banks, federal savings associations, and federal…
+- [OCC CRA Performance Evaluations Search API](https://apis.io/apis/occ/cra-performance-evaluations/) — Search and retrieve Community Reinvestment Act (CRA) performance evaluations for national banks and federal savings associations. Records available from…
+- [OCC Enforcement Actions Search API](https://apis.io/apis/occ/enforcement-actions/) — Search and retrieve enforcement actions taken by the OCC against national banks, federal savings associations, and individuals. Searchable by bank name,…
 
-- Financial institution lists (national banks, trust banks, federal savings associations) in Excel and PDF formats, updated monthly
-- Quarterly bank trading and derivatives activity data in XML and PDF formats
+### Published properties
 
-## Developer Resources
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Developer Resources: https://www.occ.treas.gov/about/policies/developer-resources.html
-- OCC Digital Strategy: https://www.occ.treas.gov/about/policies/occ-digital-strategy.html
-- Data.gov catalog: https://catalog.data.gov/dataset?organization=occ-treas-gov
+#### JSON-LD (1)
 
-## Links
+Linked-data contexts for the provider's vocabulary.
 
-- Website: https://www.occ.treas.gov/
-- APIs.json: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/apis.yml
-- LinkedIn: https://www.linkedin.com/company/office-of-the-comptroller-of-the-currency
-- News Releases: https://www.occ.treas.gov/news-issuances/news-releases/index-news-releases.html
+- [Occ Context](https://apis.io/jsonld/occ/occ-context/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Occ Domain Security](https://apis.io/security/occ/occ-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Occ Plans Pricing](https://apis.io/plans/occ/occ-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Occ Rate Limits](https://apis.io/rate-limits/occ/occ-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Occ Finops](https://apis.io/finops/occ/occ-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.occ.treas.gov/)
+- [Documentation](https://www.occ.treas.gov/about/policies/developer-resources.html)
+- [Blog](https://www.occ.treas.gov/news-issuances/news-releases/index-news-releases.html)
+- [Status](https://www.occ.treas.gov/)
+
+## API Evangelist rating
+
+**Kin Score 15.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.7** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/occ/](https://apis.io/providers/occ/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Office of the Comptroller of the Currency (OCC): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/occ/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
